@@ -46,8 +46,8 @@
 
 <style>
 	main {text-align: center;padding: 1em;margin: 0 auto;background:#fdfdfd;}
-	h1 {color: #33;text-transform: uppercase;font-size: 4em;font-weight: 100;}
-	p{color:#616161;font-size:1em;}
+	h1 {color: #333;text-transform: uppercase;font-size: 4em;font-weight: 100;}
+	p{color:#757575;font-size:1em;}
 	article{width:100%;max-width:512px;margin:24px auto;border:1px solid #eee;background:#fff;border-radius:8px;}
 	a{text-decoration:none;display:flex;padding:16px;}
 	img{float:left;width:104px;margin-right:24px;}
