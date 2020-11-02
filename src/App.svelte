@@ -9,14 +9,14 @@
 			color: '#079992', 
 			language: 'french' 
 		},
-		// { 
-		// 	name: `Geoflux`, 
-		// 	title: '???',
-		// 	href: 'https:/geoflux.io/', 
-		// 	logo: 'geoflux.io.svg', 
-		// 	color: '#079992', 
-		// 	language: 'french' 
-		// },
+		{ 
+			name: `Geoflux`, 
+			title: `Technologies de l'information géographique`,
+			href: 'https:/geoflux.io/', 
+			logo: 'geoflux.io.svg', 
+			color: '#455a64', 
+			language: 'french' 
+		},
 		{ 
 			name: `svelte-simple-datatables`, 
 			title: 'A Datatable component for Svelte',
@@ -30,17 +30,17 @@
 
 <main>
 	<h1>Hello / Bonjour !</h1>
-	<p>Below is the list of my sites and applications :</p>
+	<p>Below is a list of sites and applications that i maintain :</p>
 	{#each myapps as app}
-	<article>
-		<a href={app.href}>
+	<a href={app.href}>
+		<article>
 			<img alt="{app.name} logo" src="{app.logo}"/>
 			<div>
 				<h2 style="color:{app.color}">{app.name}</h2>
 				<h3>{app.title}</h3>
 			</div>
-		</a>
-	</article>	
+		</article>	
+	</a>
 	{/each}
 </main>
 
@@ -48,15 +48,16 @@
 	main {text-align: center;padding: 1em;margin: 0 auto;background:#fdfdfd;}
 	h1 {color: #1c313a;text-transform: uppercase;font-size: 4em;font-weight: 100;}
 	p{color:#616161;font-size:1em;}
-	article{width:100%;max-width:512px;margin:24px auto;border:1px solid #eee;padding:16px;background:#fff;border-radius:8px;}
-	a{display:flex;text-decoration:none;}
-	img{float:left;width:112px;margin-right:24px;}
-	h2{font-weight:400;text-align:left;margin:0 0 24px 0;font-size:2rem;}
+	a{text-decoration:none;}
+	article{width:100%;display:flex;max-width:512px;margin:24px auto;border:1px solid #eee;padding:16px;background:#fff;border-radius:8px;}
+	img{float:left;width:104px;margin-right:24px;}
+	h2{font-weight:400;text-align:left;margin:0 0 0 0;font-size:2rem;}
 	h3{font-weight:300;color:#455a64;text-align:left;margin:0 0 4px 0}
 	@media (max-width: 640px) {
-		main {max-width: 240px;padding:0.5em}
-		h1{font-size:1.5em;}
-		p{font-size:.9em;}
+		main {padding:0.3em 0.2em;}
+		article{max-width:90%;margin:16px auto;}
+		h1{font-size:1.8em;}
+		p{font-size:.9em;padding:4% 0;}
 		img{width:64px;margin-right:16px;}
 		article{padding:8px}
 		h2{font-size:1em;margin:0 0 4px 0}
