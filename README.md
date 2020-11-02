@@ -4,7 +4,7 @@
         ServerName vincjo.fr
         ServerAlias www.vincjo.fr
         DocumentRoot /var/www/vincjo.fr/home/public
-        Alias /svelte-simple-datatables/ "/var/www/vincjo.fr/svelte-simple-datatables/example/public"
+        Alias /svelte-simple-datatables "/var/www/vincjo.fr/svelte-simple-datatables/example/public/"
         DirectoryIndex index.html
         SSLCertificateFile /etc/letsencrypt/live/vincjo.fr/fullchain.pem
         SSLCertificateKeyFile /etc/letsencrypt/live/vincjo.fr/privkey.pem
@@ -16,7 +16,7 @@
     ServerName vincjo.fr
     ServerAlias www.vincjo.fr
     DocumentRoot /var/www/vincjo.fr/home/public
-    Alias /svelte-simple-datatables/ "/var/www/vincjo.fr/svelte-simple-datatables/example/public"
+    Alias /svelte-simple-datatables "/var/www/vincjo.fr/svelte-simple-datatables/example/public/"
     DirectoryIndex index.html
 </virtualHost>
 ~~~~
