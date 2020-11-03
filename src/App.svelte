@@ -30,7 +30,7 @@
 
 <main>
 	<h1>Hello / Bonjour !</h1>
-	<p>Below is a list of sites and applications that i maintain :</p>
+	<p>Below is a list of sites and applications I maintain :</p>
 	{#each myapps as app}
 	<article>
 		<a href={app.href}>
