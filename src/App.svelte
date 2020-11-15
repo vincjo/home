@@ -22,7 +22,7 @@
 			title: 'A Datatable component for Svelte',
 			href: 'https://vincjo.fr/svelte-simple-datatables/', 
 			logo: 'svelte-simple-datatables.svg',
-			color: '#ff3e00', 
+			color: '#b71540', 
 			language: 'english' 
 		},
 	]
