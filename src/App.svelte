@@ -34,7 +34,7 @@
 	{#each myapps as app}
 	<article>
 		<a href={app.href}>
-			<img alt="{app.name} logo" src="{app.logo}"/>
+			<img alt="{app.name} logo" src="./{app.logo}"/>
 			<div>
 				<h2 style="color:{app.color}">{app.name}</h2>
 				<h3>{app.title}</h3>
