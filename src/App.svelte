@@ -1,22 +1,22 @@
 <script>
 
 	const myapps = [
-		{ 
-			name: `Boucle d'Air`, 
-			title: 'Envie de Sortir ?',
-			href: 'https://boucledair.fr/', 
-			logo: 'boucledair.fr.svg', 
-			color: '#079992', 
-			language: 'french' 
-		},
-		{ 
-			name: `GeoFlux`, 
-			title: `Technologies de l'information géographique`,
-			href: 'https://geoflux.io/', 
-			logo: 'geoflux.io.svg', 
-			color: '#455a64', 
-			language: 'french' 
-		},
+		// { 
+		// 	name: `Boucle d'Air`, 
+		// 	title: 'Envie de Sortir ?',
+		// 	href: 'https://boucledair.fr/', 
+		// 	logo: 'boucledair.fr.svg', 
+		// 	color: '#079992', 
+		// 	language: 'french' 
+		// },
+		// { 
+		// 	name: `GeoFlux`, 
+		// 	title: `Technologies de l'information géographique`,
+		// 	href: 'https://geoflux.io/', 
+		// 	logo: 'geoflux.io.svg', 
+		// 	color: '#455a64', 
+		// 	language: 'french' 
+		// },
 		{ 
 			name: `svelte-simple-datatables`, 
 			title: 'A Datatable component for Svelte',
@@ -29,8 +29,8 @@
 </script>
 
 <main>
-	<h1>Hello / Bonjour !</h1>
-	<p>Below is a list of sites and applications I maintain :</p>
+	<h1>Bonjour / Hello</h1>
+	<!-- <p>Below is a list of sites and applications I maintain :</p> -->
 	{#each myapps as app}
 	<article>
 		<a href={app.href}>
