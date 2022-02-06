@@ -47,7 +47,7 @@
 <style>
 	main {text-align: center;padding: 1em;margin: 0 auto;background:#fdfdfd;}
 	h1 {color: #333;text-transform: uppercase;font-size: 4em;font-weight: 100;}
-	p{color:#757575;font-size:1em;}
+	/* p{color:#757575;font-size:1em;} */
 	article{width:100%;max-width:512px;margin:24px auto;border:1px solid #eee;background:#fff;border-radius:8px;}
 	a{text-decoration:none;display:flex;padding:16px;}
 	img{float:left;width:104px;margin-right:24px;}
@@ -57,7 +57,7 @@
 		main {padding:0.3em 0.2em;}
 		article{max-width:90%;margin:16px auto;}
 		h1{font-size:1.8em;}
-		p{font-size:.9em;padding:4% 0;}
+		/* p{font-size:.9em;padding:4% 0;} */
 		img{width:64px;margin-right:16px;}
 		a{padding:8px}
 		h2{font-size:1.1em;margin:0 0 4px 0}
