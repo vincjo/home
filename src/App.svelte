@@ -23,7 +23,7 @@
                 </svg>
             <div>
                 <h2 style:color={'#b71540'}>svelte simple datatables</h2>
-                <h3>A toolkit to build some datatable components with Svelte</h3>
+                <h3>A toolkit for creating datatable components with Svelte</h3>
             </div>
         </a>
     </article>
