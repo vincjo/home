@@ -6,9 +6,6 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter({ out: 'build' }),
-		paths: {
-            base:  '/home',
-        },
 	}
 };
 
